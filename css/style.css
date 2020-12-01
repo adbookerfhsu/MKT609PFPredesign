@@ -1121,13 +1121,17 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
 .slide-title {
     font-size: 30px;
     line-height: 36px;
-    font-weight: 300;
-    color: #fff;
+    font-weight: 800;
+    font-style: bolder;
+    color: #669900;
     margin: 20px 0 10px;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #fff;
+    
 }
 
 .slide-sub-title {
-    font-style: normal;
+    font-style: bold;
     font-size: 60px;
     line-height: 58px;
     margin: 20px 0;
@@ -1135,6 +1139,8 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: -1px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #669900;
 }
 
 .slider-text {
