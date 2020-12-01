@@ -1125,7 +1125,9 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
     font-style: bolder;
     color: #669900;
     margin: 20px 0 10px;
+    -moz-text-stroke-width: .5px;
     -webkit-text-stroke-width: .5px;
+    -moz-text-stoke-color: #fff;
     -webkit-text-stroke-color: #fff;
     
 }
@@ -1139,7 +1141,9 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: -1px;
+    -moz-text-stroke-width: 1px;
     -webkit-text-stroke-width: 1px;
+    -moz-text-stoke-color: #669900;
     -webkit-text-stroke-color: #669900;
 }
 
